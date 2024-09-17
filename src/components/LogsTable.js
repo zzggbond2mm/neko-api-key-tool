@@ -77,7 +77,7 @@ const LogsTable = () => {
             return;
         }
         // 检查令牌格式
-        if (!/^sk-[a-zA-Z0-9]{48}$/.test(apikey)) {
+        if (!/^sk-[a-zA-Z0-9]+$/.test(apikey)) {
             Toast.error('令牌格式非法！');
             return;
         }
