@@ -1,0 +1,38 @@
+body {
+  background-color: var(--semi-color-bg-0);
+}
+
+/* body::-webkit-scrollbar {
+  display: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.main-content {
+  padding: 4px;
+}
+
+.small-icon .icon {
+  font-size: 1em !important;
+}
+
+.custom-footer {
+  font-size: 1.1em;
+}
+
+@media only screen and (max-width: 600px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+} */
+
+.semi-card {
+  border-radius: 20px !important;
+}
+
+.semi-button,
+.semi-input-wrapper {
+  border-radius: 8px !important;
+}
